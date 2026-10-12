@@ -3,18 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barcelos-Pusch, D.</title>
+    <meta name="description" content="Dimitri Barcelos Pusch — astronomy, asteroid hunting and science outreach." />
+    <title>Dimitri Barcelos Pusch | Astronomy & Research</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <div>
-        <a href="/"><i>Barcelos-Pusch, D.</i></a>
-      </div>
-      <div>
-        <a href="/about-me">About me</a>
-        <a href="/projects">Projects</a>
-        <a href="/contact-me">Contact me</a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a class="site-brand" href="./"><i>Barcelos-Pusch, D.</i></a>
+      <div class="site-nav-links">
+        <a href="about-me/">About me</a>
+        <a href="projects/">Projects</a>
+        <a href="contact-me/">Contact</a>
         <a
           href="http://lattes.cnpq.br/6994744664429525"
           target="_blank"
@@ -24,30 +23,71 @@
       </div>
     </nav>
 
-    <header class="homepage">
-      <div>
-        <div class="tags">
-          <span>Astrophysics</span>
-          <span>Asteroid Hunting</span>
-          <span>Citizen Science</span>
+    <main class="page-shell home-main">
+      <header class="homepage">
+        <div class="intro-copy">
+          <p class="eyebrow">Student researcher · Curitiba, Brazil</p>
+          <h1>Dimitri <br /><em>Barcelos Pusch</em>.</h1>
+          <div class="tags">
+            <span>Astrophysics</span>
+            <span>Asteroid Hunting</span>
+            <span>Citizen Science</span>
+          </div>
+          <div class="summary">
+            <p>
+              I study the sky, build communities around science, and turn curiosity into measurable work. My research lives between stellar occultations, small Solar System bodies, and the people who make discovery possible.
+            </p>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="about-me/">Explore my work <span aria-hidden="true">↗</span></a>
+            <a class="button button-secondary" href="http://lattes.cnpq.br/6994744664429525" target="_blank" rel="noopener noreferrer">CV Lattes <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <div class="summary">
-          <p>
-            High school student at Colégio Estadual do Paraná. He is a member of
-            the <i>Ciências Espaciais Longe Lateqve</i> Team (CEELL-OACEP), serves as
-            president and mentor of the <i>Núcleo de Pesquisa e Caça de Asteroides</i>, and
-            holds a scientific initiation scholarship in stellar occultations
-            through PPGFA-UTFPR. He participates in academic activities and
-            events focused on astronomy, astronautics, citizen science, and
-            science outreach for youth. His interests include rocket physics,
-            astrophysics, and astronomy.
-          </p>
+        <aside class="portrait-panel">
+          <div class="portrait-frame">
+            <img src="assets/profile.jpeg" alt="Dimitri Barcelos Pusch" />
+            <span class="portrait-label">01 / 03</span>
+          </div>
+          <p>Researching the small bodies<br />that shape a bigger picture.</p>
+        </aside>
+      </header>
+
+      <section class="signal-strip" aria-label="At a glance">
+        <div><strong>01</strong><span>Student<br />researcher</span></div>
+        <div><strong>02</strong><span>Science<br />mentor</span></div>
+        <div><strong>03</strong><span>Asteroid<br />hunter</span></div>
+        <div><strong>∞</strong><span>Curiosity<br />in motion</span></div>
+      </section>
+
+      <section class="focus-section" id="focus">
+        <div class="section-heading">
+          <p class="eyebrow">What I work on</p>
+          <h2>Three ways into<br /><em>the universe.</em></h2>
         </div>
-      </div>
-      <aside>
-        <img src="assets/profile.jpeg" alt="Barcelos-Pusch, D." />
-        <a href="http://lattes.cnpq.br/6994744664429525" target="_blank" rel="noopener noreferrer">CV Lattes</a>
-      </aside>
-    </header>
-  </body>
-</html>
+        <div class="focus-grid">
+          <article>
+            <span class="card-number">01</span>
+            <h3>Stellar occultations</h3>
+            <p>Analysing astrometric and photometric data to map and characterise small bodies in the Solar System.</p>
+            <span class="card-meta">PPGFA · UTFPR</span>
+          </article>
+          <article>
+            <span class="card-number">02</span>
+            <h3>Asteroid hunting</h3>
+            <p>Leading the NPCA in collaborative searches that connect students and the public with real planetary science.</p>
+            <span class="card-meta">NPCA · IASC</span>
+          </article>
+          <article>
+            <span class="card-number">03</span>
+            <h3>Science outreach</h3>
+            <p>Creating accessible paths into astronomy, astronautics and citizen science for the next generation.</p>
+            <span class="card-meta">CEELL-OACEP</span>
+          </article>
+        </div>
+      </section>
+
+      <footer>
+        <p>Interested in the work?</p>
+        <a href="about-me/">Read more <span aria-hidden="true">↗</span></a>
+      </footer>
+    </main>
