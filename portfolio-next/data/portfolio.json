@@ -1,0 +1,142 @@
+{
+  "projetos": [
+    {
+      "titulo": "Ocultações estelares",
+      "instituicao": "UTFPR",
+      "categoria": "Pesquisa observacional",
+      "descricao": "Iniciação científica sob orientação do Prof. Dr. F. Braga-Ribas. Analiso dados astrométricos e fotométricos de ocultações estelares para mapear e caracterizar pequenos corpos do Sistema Solar."
+    },
+    {
+      "titulo": "Campanhas de caça a asteroides",
+      "instituicao": "NPCA · IASC · CEPLF",
+      "categoria": "Ciência cidadã",
+      "descricao": "Como fundador, presidente e mentor do Núcleo de Pesquisa e Caça de Asteroides, organizo equipes de busca ligadas à International Astronomical Search Collaboration, com estudantes do Colégio Estadual Professor Loureiro Fernandes e participantes da comunidade.",
+      "url": "https://npca.vercel.app/"
+    },
+    {
+      "titulo": "Carbon Studio",
+      "categoria": "Software",
+      "descricao": "Editor Carbon para Windows com prévia PDF, Mermaid integrado, currículos, matemática LaTeX e organização de documentos por projetos.",
+      "url": "https://carbon-studio-app.vercel.app/"
+    }
+  ],
+  "publicacoes": [
+    {
+      "titulo": "Kahoot de Astronomia e Astronáutica no Planetário do Colégio Estadual do Paraná",
+      "instituicao": "Colégio Estadual do Paraná",
+      "ano": 2025
+    },
+    {
+      "titulo": "Introdução ao Astrometrica e ao SARA",
+      "instituicao": "Núcleo de Pesquisa e Caça de Asteroides",
+      "ano": 2026
+    },
+    {
+      "titulo": "SARA-NPCA: Sistema de Administração e Registro de Asteroides",
+      "instituicao": "Núcleo de Pesquisa e Caça de Asteroides",
+      "ano": 2026
+    }
+  ],
+  "formacao": [
+    {
+      "titulo": "Ensino médio",
+      "instituicao": "Colégio Estadual do Paraná",
+      "dataInicio": "2024",
+      "dataTermino": "2026"
+    }
+  ],
+  "formacaoComplementar": [
+    {
+      "titulo": "Programação de Altoritmos em Python",
+      "instituicao": "Agência Espacial Brasileira",
+      "ano": 2026,
+      "cargaHoraria": 20
+    },
+    {
+      "titulo": "Introdução à Cosmologia",
+      "instituicao": "Fundação Planetário da Cidade do Rio de Janeiro",
+      "ano": 2026,
+      "cargaHoraria": 6
+    },
+    {
+      "titulo": "Curso de Extensão On-line de Astronomia Básica",
+      "instituicao": "Instituto Federal de Pernambuco",
+      "ano": 2025,
+      "cargaHoraria": 15
+    },
+    {
+      "titulo": "Introdução à Física de Foguetes Aplicado ao Ensino de Ciências Espaciais",
+      "instituicao": "Agência Espacial Brasileira",
+      "ano": 2024,
+      "cargaHoraria": 12
+    },
+    {
+      "titulo": "Desenvolvimento Web, Aplicações e Machine Learning",
+      "instituicao": "BYJU'S Future School",
+      "ano": "2019-2022",
+      "cargaHoraria": 144
+    }
+  ],
+  "eventos": [
+    {
+      "titulo": "International Astronomy and Astrophysics Competition",
+      "instituicao": "IAAC",
+      "cargo": "Participante",
+      "ano": 2025
+    },
+    {
+      "titulo": "19° Olimpíada Brasileira de Foguetes",
+      "instituicao": "OBAFOG",
+      "cargo": "Foguete Modelo 4",
+      "ano": 2025
+    },
+    {
+      "titulo": "19° Olimpíada Brasileira de Foguetes ",
+      "instituicao": "OBAFOG",
+      "cargo": "Foguete Modelo 6",
+      "ano": 2025
+    },
+    {
+      "titulo": "CEPMUN - Simulações das Nações Unidas do Colégio Estadual do Paraná",
+      "instituicao": "CEP",
+      "cargo": "Representante da Folha de São Paulo",
+      "ano": 2026
+    },
+    {
+      "titulo": "Propulsão Espacial: A Tecnologia por Trás das Missões Espaciais",
+      "instituicao": "Agência Espacial Brasileira",
+      "cargo": "Ouvinte",
+      "ano": 2026
+    },
+    {
+      "titulo": "Expedição Científica: Impacto Lunar do Falcon 9",
+      "instituicao": "OACEP",
+      "cargo": "Pesquisador",
+      "ano": 2026
+    },
+    {
+      "titulo": "Neutrino-Nucleus Scattering: Making Sense of the Mess",
+      "instituicao": "UTFPR",
+      "cargo": "Ouvinte",
+      "ano": 2026
+    },
+    {
+      "titulo": "MindMUN - Simulações das Nações Unidas",
+      "instituicao": "Instituto MindMUN",
+      "cargo": "Staff",
+      "ano": 2026
+    },
+    {
+      "titulo": "Semana Mundial do Espaço",
+      "instituicao": "UTFPR",
+      "cargo": "Ouvinte",
+      "ano": 2026
+    },
+    {
+      "titulo": "Detecção de Asteroides Binários com Dados Astrométricos da Missão Gaia",
+      "instituicao": "UTFPR",
+      "cargo": "Ouvinte",
+      "ano": 2026
+    }
+  ]
+}
