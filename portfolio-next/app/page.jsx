@@ -2,6 +2,8 @@ import portfolio from "../data/portfolio.json";
 import ThemeToggle from "./theme-toggle";
 
 const lattes = "https://lattes.cnpq.br/6994744664429525";
+const orcid = "https://orcid.org/0009-0002-8371-0077";
+const linkedin = "https://www.linkedin.com/in/dimitri-barcelos-pusch-32335a274/";
 const catalog = [
   { id: "publicacoes", title: "Publicações", entries: portfolio.publicacoes, empty: "Nenhuma publicação cadastrada.", metadata: [{ key: "dataPublicacao", label: "Publicado em" }] },
   { id: "formacao", title: "Formação", entries: portfolio.formacao, metadata: [{ key: "dataInicio", label: "Início" }, { key: "dataTermino", label: "Término" }] },
@@ -66,6 +68,8 @@ export default function Home() {
           <p className="location">Curitiba, Brasil</p>
           <p className="intro">Faço iniciação científica em ocultações estelares na UTFPR e organizo campanhas de busca de asteroides no NPCA.</p>
           <ExternalLink className="text-link" href={lattes}>Currículo Lattes</ExternalLink>
+          <ExternalLink className="text-link" href={orcid}>Currículo ORCiD</ExternalLink>
+          <ExternalLink className="text-link" href={linkedin}>LinkedIn</ExternalLink>
         </section>
 
         <section className="section" id="projetos" aria-labelledby="projetos-title">
